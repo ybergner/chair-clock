@@ -16,7 +16,7 @@ body {
 
 .clock {
   font-size: calc(
-    24vw + 24vh
+    22vw + 22vh
   ); /*  viewport units to make the font size responsive */
   font-weight: bold;
   width: 100%;

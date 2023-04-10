@@ -52,9 +52,7 @@ function updateClockColor() {
   if (remainingTime <= 0) {
     clock.style.color = clock.style.color === "red" ? "black" : "red";
   } else if (remainingTime <= parseTime(redTimeInput.value)) {
-    clock.style.color = remainingTime % 2 === 0 ? "red" : "orange";
-    // clock.style.color =
-    //   Math.floor(remainingTime * 2) % 2 === 0 ? "red" : "white";
+    clock.style.color = remainingTime % 2 === 0 ? "red" : "white";
   } else if (remainingTime <= parseTime(yellowTimeInput.value)) {
     clock.style.color = "yellow";
   } else {
