@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clock {
+  font-size: calc(
+    25vw + 25vh
+  ); /*  viewport units to make the font size responsive */
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.controls label {
+  margin-right: 1rem;
+  color: #797777; /*  color of label text in the controls section */
+}
+
+.controls input {
+  margin-right: 1rem;
+  color: #000000; /*  color of text in the input   */
+}

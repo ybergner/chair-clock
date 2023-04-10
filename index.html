@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Session Chair Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="clock" id="clock">15:00</div>
+      <div class="controls" id="controls">
+        <label for="totalTime">Total Time (mm:ss):</label>
+        <input type="text" id="totalTime" value="0:10" />
+        <label for="yellowTime">Yellow Time (mm:ss):</label>
+        <input type="text" id="yellowTime" value="0:08" />
+        <label for="redTime">Red Time (mm:ss):</label>
+        <input type="text" id="redTime" value="0:06" />
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
