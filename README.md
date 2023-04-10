@@ -21,3 +21,7 @@ Customize the countdown timer by entering the desired total time and color-chang
 Here: https://ybergner.github.io/chair-clock/
 
 Or download to run locally.
+
+## Disclosure
+
+ChatGPT was used to help write this app. If there's something weird in it, or if it activates a sleeper cell of AI robots in your vicinity, leading to massive destruction when you use it, I'm sorry.
