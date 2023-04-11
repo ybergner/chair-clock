@@ -25,6 +25,23 @@ if ("serviceWorker" in navigator) {
   });
 }
 
+function hideFullScreenButtonIfIOSPWA() {
+  const isIOS =
+    /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  const isInStandaloneMode =
+    window.matchMedia("(display-mode: standalone)").matches ||
+    ("standalone" in window.navigator && window.navigator.standalone);
+
+  if (isIOS && isInStandaloneMode) {
+    const fullscreenBtn = document.getElementById("fullscreen-btn");
+    if (fullscreenBtn) {
+      fullscreenBtn.style.display = "none";
+    }
+  }
+}
+
+hideFullScreenButtonIfIOSPWA();
+
 function formatTime(time) {
   const minutes = Math.floor(time / 60);
   const seconds = time % 60;
