@@ -9,7 +9,7 @@ A simple and responsive web app that functions as a countdown timer for session 
   - Green: normal countdown
   - Yellow: warning (user-defined)
   - Red: critical (user-defined)
-  - Flashing red/orange: final minute
+  - Flashing red/white: final minute
   - Flashing red and black: time's up (clock shows -1:0-1 which is kind of a bug, but I like it)
 - Responsive design: clock text resizes based on the viewport size
 - Controls to set total time, yellow and red warning times, start, stop, and reset the countdown
